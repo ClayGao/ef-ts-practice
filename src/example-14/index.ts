@@ -9,7 +9,7 @@ type Person =  {
   lastName: string;
 }
 
-type PersonWithBirthdayType = {
+type PersonWithBirthday = {
   firstName: string;
   lastName: string;
   birth: Date;
@@ -19,7 +19,7 @@ type PersonWithBirthdayType = {
  * 如果你本身就有在寫 TS，你應該知道如何處理，如果你是用 interface 宣告型態，那你會使用 extend 來避免複用：
 */ 
 
-// type PersonWithBirthdayType = Person & {
+// type PersonWithBirthday = Person & {
 //   birth: Date;
 // }
 }

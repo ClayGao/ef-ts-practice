@@ -30,6 +30,7 @@ app.get('/google', (req: express.Request, res: express.Response) => {
   res.send('ok')
 })
 
+// Do this
 app.get('/google', (req,res) => {
   res.send('ok')
 })
