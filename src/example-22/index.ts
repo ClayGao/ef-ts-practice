@@ -26,7 +26,7 @@ if (typeof element === 'object') {
     element.style.color = 'red';
 }
 
-// 這個超級常見，還會卡住想說會什麼會錯誤
+// 重要！這個超級常見，還會卡住想說會什麼會錯誤
 function foo(x?: string | null) {
   if(!x) {
     x
